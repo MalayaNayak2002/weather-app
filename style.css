@@ -89,7 +89,8 @@ body {
     margin-right: 10px;
 }
 
-.humidity, .wind {
+.humidity,
+.wind {
     font-size: 28px;
     margin-top: -6px;
 }
@@ -98,10 +99,48 @@ body {
     display: none;
 }
 
-.error{
+.error {
     text-align: left;
     margin-left: 10px;
     font-size: 14px;
     margin-top: 10px;
     display: none;
+}
+
+@media (max-width: 360px) {
+
+    .weather h1 {
+        font-size: 44px;
+    }
+
+    .weather h2 {
+        font-size: 22px;
+    }
+
+    .weather-icon {
+        width: 100px;
+    }
+
+    .col {
+        width: 100%;
+    }
+
+    .details {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .search button {
+        width: 30px;
+        height: 30px;
+    }
+
+    .search button img {
+        width: 8px;
+    }
+
+    .search input {
+        height: 30px;
+        width: 30px;
+    }
 }
