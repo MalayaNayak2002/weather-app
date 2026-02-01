@@ -107,7 +107,7 @@ body {
     display: none;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 425px) {
 
     .weather h1 {
         font-size: 44px;
